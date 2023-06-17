@@ -1,0 +1,44 @@
+.product-googles-info {
+	padding: 15px;
+	border: 1px solid #e4e4e4;
+}
+
+.men-pro-item {
+	position: relative;
+}
+
+.men-thumb-item {
+	text-align: center;
+	position: relative;
+}
+
+.item-info-product {
+	text-align: center;
+}
+
+.men-cart-pro {
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	transition: all 0.5s ease-out 0s;
+	visibility: hidden;
+}
+
+inner-men-cart-pro {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	transition: all 0.5s ease-out 0s;
+}
+
+.wrapper_top_shop .inner-men-cart-pro .link-product-add-cart {
+    width: 56%;
+    top: 0px;
+	left: 22%;
+}

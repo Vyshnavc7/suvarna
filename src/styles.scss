@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+// @font-face {
+//     font-family: 'Ubuntu';
+//     src: url('/assets/fonts/ubuntu-regular.ttf') format('truetype');
+//     /* Add more font files and formats if needed */
+//   }
+  
+//   /* Apply the font family globally */
+//   body {
+//     font-family: 'Ubuntu', sans-serif;
+//   }
+  
+
+@font-face {
+    font-family: 'Dosis';
+    src: url('/fonts/dosis-regular.ttf') format('truetype');
+    /* Add more font files and formats if needed */
+  }
+  
+  /* Apply the font family globally */
+  body {
+    font-family: 'Dosis', sans-serif;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
